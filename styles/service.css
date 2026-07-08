@@ -5,15 +5,12 @@
     box-sizing: border-box;
 }
 
-.service-heading-section {
+.title {
     text-align: center;
+    margin-top: 9rem;
 }
 
-.services {
-    margin-top: 8rem;
-}
-
-.service-heading-section h1 {
+.title h1 {
     font-size: 3rem;
     display: inline-block;
     background: linear-gradient(90deg,#d14600,#ff5500,#ffa639,#ce4500,#c04000);
@@ -21,7 +18,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.service-heading-section p {
+.title p {
     color: rgb(142, 142, 142);
     margin-top: 0.5rem;
     font-size: 1.1rem;
