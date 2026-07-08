@@ -9,6 +9,77 @@
     text-align: center;
 }
 
+.services {
+    margin-top: 8rem;
+}
+
 .service-heading-section h1 {
     font-size: 3rem;
+    display: inline-block;
+    background: linear-gradient(90deg,#d14600,#ff5500,#ffa639,#ce4500,#c04000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.service-heading-section p {
+    color: rgb(142, 142, 142);
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.service-card-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+    width: 70%;
+}
+
+.service-card {
+    display: flex;
+    width: 20rem;
+    position: relative;
+    box-shadow: 0 0 30px black;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.service-card-icon-section {
+    background-color: rgb(35, 35, 35);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    top: -2rem;
+    padding: 0.4rem;
+    box-shadow: 0 0 15px black;
+    border: 2px solid #ff5500;
+}
+
+.service-card-icon-section img {
+    width: 70%;
+}
+
+.service-card-info-section {
+    z-index: 0;
+    background-color: #2c2c2c;
+    border-radius: 20px;
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.service-card-info-section h1 {
+    font-size: 1.5rem;
+    color: #ff5500;
+}
+
+.service-card-info-section p {
+    color: rgb(167, 167, 167);
+    margin-top: 1.8rem;
+    line-height: 1.5;
 }

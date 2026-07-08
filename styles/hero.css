@@ -10,7 +10,7 @@
     justify-content: space-between;
     padding: 0 3rem;
     width: 95%;
-    margin: 0 auto;
+    margin: 10rem auto;
 }
 
 .hero-left-side {
@@ -20,7 +20,7 @@
 .hero-section-name {
     color: rgb(158, 158, 158);
     line-height: 1.5;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .hero-section-title {
@@ -61,7 +61,7 @@
     text-decoration: none;
     color: white;
     padding: 0.8rem 3rem;
-    font-size: 0.85rem;
+    font-size: 1rem;
     border: 2px solid #ff5500;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;

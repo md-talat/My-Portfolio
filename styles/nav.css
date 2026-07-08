@@ -8,12 +8,19 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 3rem;
+    padding: 1.5rem 3rem;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: #2c2c2c;
+    box-shadow: 0 10px 60px black;
 }
 
 .logo-container {
-    width: 3rem;
+    width: 4.5rem;
 }
 
 .logo-container img {
@@ -31,7 +38,7 @@ nav {
 .navigations ul li a {
     text-decoration: none;
     color: rgb(167, 167, 167);
-    font-size: 0.85rem;
+    font-size: 1rem;
     margin: 0 0.95rem;
     position: relative;
 }
@@ -57,11 +64,22 @@ nav {
     color: white;
 }
 
+/* setting the home as default with underline design 
+    -> for this use a class name active */
+
+.navigations ul li a.active::before {
+    transform: scaleX(1);
+}
+
+.navigations ul li a.active {
+    color: white;
+}
+
 .nav-hire-me-button a{
     text-decoration: none;
     color: white;
     padding: 0.8rem 3rem;
-    font-size: 0.85rem;
+    font-size: 1rem;
     border: 2px solid #ff5500;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
