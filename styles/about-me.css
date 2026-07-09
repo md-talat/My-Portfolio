@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin: 3rem auto;
+    margin: 1rem auto;
 }
 
 .about-me-left-section-img {
@@ -31,6 +31,7 @@
 .about-me-right-section-info p {
     font-size: 1.1rem;
     line-height: 2;
+    text-align: justify;
     font-family: cursive;
     color: rgb(142, 142, 142);
 }
