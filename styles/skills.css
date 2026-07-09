@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.skills-card-row {
+    display: flex;
+    width: 80%;
+    margin: 4rem auto;
+}
+
+.skills-card {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+/* html card section */
+
+.skills-outer-circle-html {
+    background: conic-gradient(#ff5500 0deg,#f88951 342deg, rgb(68, 68, 68) 342deg,rgb(68, 68, 68) 360deg);
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.skills-outer-circle-html::before {
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #ff5500;
+    top: 0;
+}
+
+.skills-outer-circle-html::after{
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #f88951;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(342deg) translateY(-3.25rem) ;
+}
+
+.skills-inner-circle-html {
+    background-color: rgb(30, 30, 30);
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    padding: 1.7rem;
+}
+
+.skills-inner-circle-html img {
+    width: 100%;
+}
+
+/* Card common text section */
+
+.skills-card-info {
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.1;
+}
+
+.skills-card-info h1 {
+    color: #ff5500;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.skills-card-info h2 {
+    font-weight: normal;
+    color: rgb(142, 142, 142);
+    font-size: 1.2rem;
+}
+
+
+/* CSS Card section */
+
+.skills-outer-circle-css {
+    background: conic-gradient(#ff5500 0deg,#f88951 270deg, rgb(68, 68, 68) 270deg,rgb(68, 68, 68) 360deg);
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.skills-outer-circle-css::before {
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #ff5500;
+    top: 0;
+}
+
+.skills-outer-circle-css::after{
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #f88951;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(270deg) translateY(-3.25rem) ;
+}
+
+.skills-inner-circle-css {
+    background-color: rgb(30, 30, 30);
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    padding: 1.7rem;
+}
+
+.skills-inner-circle-css img {
+    width: 100%;
+}
+
+
+/* JS Card section */
+
+.skills-outer-circle-js {
+    background: conic-gradient(#ff5500 0deg,#f88951 72deg, rgb(68, 68, 68) 72deg,rgb(68, 68, 68) 360deg);
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.skills-outer-circle-js::before {
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #ff5500;
+    top: 0;
+}
+
+.skills-outer-circle-js::after{
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #f88951;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(72deg) translateY(-3.25rem) ;
+}
+
+.skills-inner-circle-js {
+    background-color: rgb(30, 30, 30);
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    padding: 1.7rem;
+}
+
+.skills-inner-circle-js img {
+    width: 100%;
+}
+
+/* powerpoint Card section */
+
+.skills-outer-circle-pp {
+    background: conic-gradient(#ff5500 0deg,#f88951 324deg, rgb(68, 68, 68) 324deg,rgb(68, 68, 68) 360deg);
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.skills-outer-circle-pp::before {
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #ff5500;
+    top: 0;
+}
+
+.skills-outer-circle-pp::after{
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #f88951;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(324deg) translateY(-3.25rem) ;
+}
+
+.skills-inner-circle-pp {
+    background-color: rgb(30, 30, 30);
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    padding: 1.7rem;
+}
+
+.skills-inner-circle-pp img {
+    width: 100%;
+}
+
+/* canva Card section */
+
+.skills-outer-circle-canva {
+    background: conic-gradient(#ff5500 0deg,#f88951 288deg, rgb(68, 68, 68) 288deg,rgb(68, 68, 68) 360deg);
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.skills-outer-circle-canva::before {
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #ff5500;
+    top: 0;
+}
+
+.skills-outer-circle-canva::after{
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #f88951;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(288deg) translateY(-3.25rem) ;
+}
+
+.skills-inner-circle-canva {
+    background-color: rgb(30, 30, 30);
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    padding: 1.7rem;
+}
+
+.skills-inner-circle-canva img {
+    width: 100%;
+}
+
+/* figma Card section */
+
+/* .skills-outer-circle-figma {
+    background: conic-gradient(#ff5500 0deg,#f88951 306deg, rgb(68, 68, 68) 306deg,rgb(68, 68, 68) 360deg);
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.skills-outer-circle-figma::before {
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #ff5500;
+    top: 0;
+}
+
+.skills-outer-circle-figma::after{
+    content: "";
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #f88951;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(306deg) translateY(-3.75rem) ;
+}
+
+.skills-inner-circle-figma {
+    background-color: rgb(30, 30, 30);
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    padding: 1.7rem;
+}
+
+.skills-inner-circle-figma img {
+    width: 100%;
+} */
