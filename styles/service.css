@@ -28,12 +28,12 @@
     display: flex;
     justify-content: space-between;
     margin: 3rem auto;
-    width: 70%;
+    width: 80%;
 }
 
 .service-card {
     display: flex;
-    width: 20rem;
+    width: 24rem;
     position: relative;
     box-shadow: 0 0 30px black;
     border-radius: 20px;
